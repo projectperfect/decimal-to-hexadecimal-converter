@@ -9,5 +9,11 @@ int main(void) {
     int the_number; // declares an integer variable
     scanf("%d", &the_number); // acquires user input
 
+    printf("Decimal Representation: %9d\n", the_number);
+    printf("Converted to hexadecimal: %9X\n", the_number);
+
+    printf("===^^===\n");
+
+
     return 0;
 }
